@@ -35,7 +35,9 @@ Before running the script, ensure you have:
 
 3 Azure CLI logged in
   az login
+  
 4 SSH key for Linux VM access
   ssh-keygen -t rsa -b 2048
+  
 5 Single-line command (Windows CMD)
-  python generate_tf_vm_clz.py --app payments --env dev --region eastus --vm_size Standard_B2s --network_rg rg-clz-network --vnet_name    vnet-clz-eastus --subnet_name snet-app-eastus
+  python generate_tf_vm_clz.py --app payments --env dev --region eastus --vm_size Standard_B2s --network_rg rg-clz-network --vnet_name      vnet-clz-eastus --subnet_name snet-app-eastus
